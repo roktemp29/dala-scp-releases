@@ -1,0 +1,9 @@
+{
+  "app": "DALA·AEP SCP",
+  "version": "1.2",
+  "minimum_supported_version": "1.2",
+  "installer_url": "https://github.com/roktemp29/dala-scp-releases/releases/latest/download/DALA-AEP-SCP-Setup.exe",
+  "release_page": "https://github.com/roktemp29/dala-scp-releases/releases/latest",
+  "sha256": "",
+  "release_notes": "Initial release manifest. No update has been published yet."
+}
