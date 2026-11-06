@@ -1,20 +1,15 @@
-# DALA·AEP SCP — Public Releases
+# DALA·AEP SCP
 
-This repository contains **public release information and compiled installers only**. The application's source code is maintained in a separate private repository.
+**Smart cuts. Perfect packs.** A free Windows app that turns a movie into scene packs: it finds every cut, recognises the characters and exports each one as separate clips or one merged video.
 
-## Publishing a release
+## Download
 
-1. Build and test the Windows installer from the private source repository.
-2. Create a GitHub Release in this repository with a version tag such as `v1.3`.
-3. Upload the installer using the exact filename `DALA-AEP-SCP-Setup.exe`.
-4. Update `latest.json` with the new version, minimum supported version, release notes, and SHA-256 checksum of the installer.
-5. Test the public download link and in-app update flow before announcing the release.
+**[dala-scp.vercel.app](https://dala-scp.vercel.app)**: always the newest version, with the install guide.
 
-## Important
+Or pick a version on the [Releases](https://github.com/roktemp29/dala-scp-releases/releases) page and download `DALA-AEP-SCP_Setup.exe`. Windows 10 and 11, 64-bit.
 
-- Never upload source code, access tokens, signing keys, or secrets here.
-- Users should not need a GitHub account to download public releases.
-- The installer must be tested on Windows before release.
-- The app updater should verify the installer SHA-256 against `latest.json` before launching it.
+Already installed? From version 1.4 on, update from inside the app: **Dashboard › Check now**.
 
-The current manifest is a placeholder for version 1.2; no newer installer is published yet.
+---
+
+This repository holds the official installers and `latest.json`, which the app reads to check for updates. Please don't open pull requests here. Report problems in [Issues](https://github.com/roktemp29/dala-scp-releases/issues), with the report from **Help › Diagnostics** attached.
