@@ -1,9 +1,9 @@
 {
   "app": "DALA·AEP SCP",
-  "version": "1.2",
+  "version": "1.3",
   "minimum_supported_version": "1.2",
-  "installer_url": "https://github.com/roktemp29/dala-scp-releases/releases/latest/download/DALA-AEP-SCP_Setup.exe",
-  "release_page": "https://github.com/roktemp29/dala-scp-releases/releases/latest",
-  "sha256": "8CEBF9EE84BC9459AD9B445F384B7390648C0DC826D69E7278D650BFE00228FC",
-  "release_notes": "DALA-AEP SCP 1.2 release. Updated toolbar layout and updater packaging."
+  "installer_url": "https://github.com/roktemp29/dala-scp-releases/releases/download/v1.3/DALA-AEP-SCP_Setup.exe",
+  "release_page": "https://github.com/roktemp29/dala-scp-releases/releases/tag/v1.3",
+  "sha256": "4B182F33069DCB70077C7643ABDDE8DFC3A4604F71D2D2C9437A14DBCB66B4F1",
+  "release_notes": "What's new in 1.3\n\n- Dashboard: see your installed version, the latest release and its notes, and check for updates (Home > Dashboard, or Help > Dashboard).\n- Scene detection shows a progress screen with real progress and a Cancel button. It is faster, keeps the final scene, and reuses saved results for files it has already analysed.\n- Guided tour for new users, available any time from Help > Take the Guided Tour.\n- Diagnostics (Help > Diagnostics) checks FFmpeg, folders, disk space and update access, and saves a report with personal details hidden.\n- The app now checks for updates by itself once a day (you can turn this off).\n\nFixes\n- Closing or removing a movie no longer mixes up the scenes, categories or exports of the other open movies.\n- Exports never overwrite existing files, and Export All uses the folder you choose.\n- Redo works, and category assignments can be undone.\n- Projects restored from an auto-save now save back to your project file, and New and Open ask before discarding unsaved changes.\n- Keyboard shortcuts no longer fire while you are typing or while a dialog is open."
 }
